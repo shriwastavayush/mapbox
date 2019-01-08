@@ -1,0 +1,105 @@
+ body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 10px;
+      width: 100%;
+    }
+	  
+	.map-overlay {
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 0;
+    padding: 30px;
+	bottom: 20px;
+}
+
+.map-overlay .map-overlay-inner {
+    background-color: #fff;
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.10);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.map-overlay-inner fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.map-overlay-inner fieldset:last-child {
+    margin: 0;
+}
+
+.map-overlay-inner select {
+    width: 100%;
+}
+
+.map-overlay-inner label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.map-overlay-inner button {
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.map-overlay-inner button:focus {
+    outline: none;
+}
+
+.map-overlay-inner button:hover {
+    box-shadow:inset 0 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #099;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+}
+.main img {
+	max-width: 100%;
+	height: auto;
+}
+.button {
+  width: 300px;
+  height: 60px;
+}
